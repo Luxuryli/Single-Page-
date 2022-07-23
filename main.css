@@ -8,21 +8,22 @@ body {
   background-color: hsl(0, 100%, 74%);
   background-image: url(images/bg-intro-desktop.png);
   width: 100%;
-  height: 100vh;
 }
 
 main {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding: 0px 200px 0px 200px;
+  margin: 141px auto 0;
   display: flex;
+  width: 75%;
 }
 
 .container0 {
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 20px 20px 20px 20px;
 }
 
 h1 {
@@ -32,7 +33,6 @@ h1 {
   font-weight: 700;
   font-size: 50px;
   line-height: 3.5rem;
-  margin-top: 150px;
 }
 
 .see {
@@ -46,7 +46,6 @@ h1 {
 }
 
 .container1 {
-  margin: 170px 20px 0px 0px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -59,7 +58,7 @@ h1 {
 
 .containerr button {
   background-color: hsl(248, 32%, 49%);
-  font-size: 13px;
+  font-size: 16px;
   font-family: 'Poppins',sans-serif;
   color: whitesmoke;
   text-align: center;
@@ -135,22 +134,21 @@ a {
   body {
     background-color: hsl(0, 100%, 74%);
     background-image: url(images/bg-intro-desktop.png);
-    width: 85%;
-    height: 100vh;
   }
   
   main {
-    width: 100%;
+    width: 85%;
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 40px 0px 40px 100px;
+    height: 100vh;
+    margin: auto;
     display: flex;
+    flex-direction: row;
   }
   
   .container0 {
-    width: 100%;
-    padding: 20px 0px;
+    width: 85%;
     display: flex;
     flex-direction: column;
   }
@@ -162,7 +160,6 @@ a {
     font-weight: 700;
     font-size: 50px;
     line-height: 3.5rem;
-    margin-top: 150px;
   }
   
   .see {
@@ -176,20 +173,20 @@ a {
   }
   
   .container1 {
-    margin: 100px -100px 0px 30px;
-    width: 100%;
+    width: 85%;
     display: flex;
     flex-direction: column;
+    margin: 40px 40px 40px 40px;
   }
   
   .containerr {
-    margin-left: 0px;
+    margin-left: 20px;
     width: 100%;
   }
   
   .containerr button {
     background-color: hsl(248, 32%, 49%);
-    font-size: 13px;
+    font-size: 16px;
     font-family: 'Poppins',sans-serif;
     color: whitesmoke;
     text-align: center;
@@ -198,6 +195,7 @@ a {
     height: 60px;
     border-style: none;
     box-shadow: 0px 8px 0px hsla(249, 10%, 26%, 0.25);
+    padding: 5px 20px 5px 20px;
   }
   
   button:hover {
@@ -208,7 +206,6 @@ a {
     background-color: white;
     border-radius: 10px;
     padding: 30px 40px 50px 40px;
-    margin: 30px 0px 30px 0px;
     width: 100%;
     box-shadow: 0px 8px 0px hsla(249, 10%, 26%, 0.25);
   }
@@ -237,7 +234,8 @@ a {
     border-radius: 5px;
     border-style: none;
     letter-spacing: 2px;
-    margin: 10px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
+    padding: auto;
     border-bottom: 4px solid rgba(128, 128, 128, 0.265);
   }
   
@@ -261,8 +259,7 @@ a {
   body {
     background-color: hsl(0, 100%, 74%);
     background-image: url(images/bg-intro-desktop.png);
-    width: 95%;
-    height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -272,14 +269,13 @@ a {
     align-items: center;
     justify-content: center;
     gap: 0px;
-    padding: 20px 10px 20px 10px;
     display: flex;
     flex-direction: column;
+    margin: auto;
   }
   
   .container0 {
     width: 100%;
-    padding: 20px 20px 20px 20px;
     display: flex;
     flex-direction: column;
   }
@@ -289,27 +285,25 @@ a {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 35px;
-    line-height: 2.5rem;
+    font-size: 40px;
     margin-top: 150px;
-    margin-bottom: 20px;
   }
   
   .see {
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
-    width: 100%;
+    width: 75%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    margin: auto;
+    margin: 20px auto;
   }
   
   .container1 {
-    margin: auto;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
+    margin: 0px;
   }
   
   .containerr {
@@ -319,7 +313,7 @@ a {
   
   .containerr button {
     background-color: hsl(248, 32%, 49%);
-    font-size: 13px;
+    font-size: 16px;
     font-family: 'Poppins',sans-serif;
     color: whitesmoke;
     text-align: center;
@@ -328,7 +322,6 @@ a {
     height: 60px;
     border-style: none;
     box-shadow: 0px 8px 0px hsla(249, 10%, 26%, 0.25);
-    margin: 0px 10px 0px 10px;
   }
   
   button:hover {
@@ -338,12 +331,12 @@ a {
   .container2 {
     background-color: white;
     border-radius: 10px;
-    padding: 30px 40px 50px 40px;
-    margin: 30px 10px 50px 10px;
+    padding: 30px 20px 50px 20px;
     width: 100%;
     box-shadow: 0px 8px 0px hsla(249, 10%, 26%, 0.25);
     display: flex;
     flex-direction: column;
+    margin: 30px auto;
   }
   
   input {
@@ -387,6 +380,5 @@ a {
     color: hsl(0, 100%, 74%);
     text-decoration: none;
     font-weight: 700;
-
   }
 }
