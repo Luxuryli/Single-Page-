@@ -274,6 +274,7 @@ a {
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 20px 20px 20px 20px;
   }
   
   h1 {
@@ -282,7 +283,7 @@ a {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 40px;
-    margin-top: 150px;
+    margin-top: 350px;
   }
   
   .see {
